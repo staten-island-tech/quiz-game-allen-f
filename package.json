@@ -2,7 +2,7 @@
   "name": "quiz-game-allen-f",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.html",
   "dependencies": {
     "parcel": "^2.0.0-beta.2"
   },
@@ -11,8 +11,8 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "start": "parcel src/index.html",
-    "build-prod": "parcel build src/index.html"
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel serve ./src/index.html"
   },
   "repository": {
     "type": "git",
