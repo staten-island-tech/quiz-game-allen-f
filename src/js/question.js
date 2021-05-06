@@ -97,6 +97,4 @@ const questions = [
   },
 ]
 
-export function questions() {
-    return "Questions";
-  }
+export { questions };
