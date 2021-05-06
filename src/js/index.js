@@ -1,4 +1,4 @@
-import { questions } from "./questions.js";
+import { questions } from "./question.js";
 
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
